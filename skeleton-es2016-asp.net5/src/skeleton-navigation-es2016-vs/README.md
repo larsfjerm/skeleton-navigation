@@ -35,10 +35,18 @@ To run the app, follow these steps.
   ```shell
   gulp watch
   ```
-7. Browse to [http://localhost:9000](http://localhost:9000) to see the app. You can make changes in the code found under `src` and the browser should auto-refresh itself as you save files.
+  >**Note:** This skeleton is wrapped in an ASP.NET Core project.  If you are using VSCode on any platform you can install ASP.NET on Windows, OSX, or Linux but the instructions to do so are found [on the Microsoft](https://code.visualstudio.com/Docs/runtimes/ASPnet5) page.  This assumes you are running from command line but Visual Studio users should be familiar with how to build and run the project in the IDE.
 
-> The Skeleton App uses [BrowserSync](http://www.browsersync.io/) for automated page refreshes on code/markup changes concurrently across multiple browsers. If you prefer to disable the mirroring feature set the [ghostMode option](http://www.browsersync.io/docs/options/#option-ghostMode) to false
+7. To run the app, execute the following command:
 
+  ```shell
+  dotnet run
+  ```
+  Or in Visual Studio just click on the Debug in Browser option.
+
+8. If you want the changes you are making to be reflected in the browser you can run `gulp watch` in a second terminal window and refresh the page in your browser.
+
+9. Browse to [http://localhost:5000](http://localhost:5000) to see the app. You can make changes in the code found under `src` and the browser should auto-refresh itself as you save files.
 
 ## Bundling
 Bundling is performed by [Aurelia Bundler](http://github.com/aurelia/bundler). A gulp task is already configured for that. Use the following command to bundle the app:
