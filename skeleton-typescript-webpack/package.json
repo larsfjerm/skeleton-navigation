@@ -47,7 +47,7 @@
     "bootstrap": "^3.3.6",
     "font-awesome": "^4.5.0",
     "isomorphic-fetch": "^2.2.1",
-    "jquery": "^2.2.3"
+    "jquery": "^4.0.0"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.18",
@@ -58,7 +58,7 @@
     "file-loader": "^0.8.5",
     "html-webpack-plugin": "^2.9.0",
     "jasmine-core": "^2.4.1",
-    "karma": "^0.13.21",
+    "karma": "^6.4.4",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.7",
     "karma-webpack": "^1.7.0",
@@ -71,6 +71,6 @@
     "url-loader": "^0.5.7",
     "wallaby-webpack": "0.0.22",
     "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^6.1.0"
   }
 }
